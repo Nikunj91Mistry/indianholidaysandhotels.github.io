@@ -232,7 +232,9 @@ svg:not(:root) {
 }
 
 table {
-    border-collapse: collapse
+    border-collapse: collapse;
+    border: 1px solid #D8D8D8;
+    margin-bottom: 10px;
 }
 
 caption {
@@ -244,7 +246,25 @@ caption {
 }
 
 th {
-    text-align: inherit
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    border: 1px solid #D8D8D8;
+    padding: 10px 0;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.td-color {
+    background: #666;
+    text-align: center;
+    color: #FFF;
+    font-weight: 400!important;
+    padding: 7px 7px;
 }
 
 label {
