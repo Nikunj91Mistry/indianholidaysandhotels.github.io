@@ -976,13 +976,13 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
-  margin: 0 30px 0 0;
+  margin: 0 25px 0 0;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 93, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li {
-    margin-right: 15px;
+    margin-right: 10px;
   }
 }
 
